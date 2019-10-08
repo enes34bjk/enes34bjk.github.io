@@ -13,6 +13,13 @@
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<script>
+  var mobilevideo = document.getElementsByTagName("video")[0];
+mobilevideo.setAttribute("playsinline", "");
+mobilevideo.setAttribute("muted", "");
+mobilevideo.setAttribute("autoplay", "");
+
+</script>
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -27,7 +34,9 @@
 					<h1>QeyeZ</h1>
 					<p>Online quiz application for visually impaired people<br />
 				</div>
-				<video autoplay loop muted playsinline src="https://media.giphy.com/media/3oFyD4yCrbo29sDhZe/giphy.mp4"></video>
+				<video playsinline autoplay loop  >
+				 <source src="https://media.giphy.com/media/3oFyD4yCrbo29sDhZe/giphy.mp4" type="video/mp4">
+				 </video>
 			</section>
 
 		<!-- Highlights -->
