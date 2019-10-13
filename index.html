@@ -5,57 +5,99 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>FAVEO</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<script>
-  var mobilevideo = document.getElementsByTagName("video")[0];
-mobilevideo.setAttribute("playsinline", "");
-mobilevideo.setAttribute("muted", "");
-mobilevideo.setAttribute("autoplay", "");
 
+<head>
+    <title>FAVEO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<script>
+    var mobilevideo = document.getElementsByTagName("video")[0];
+    mobilevideo.setAttribute("playsinline", "");
+    mobilevideo.setAttribute("muted", "");
+    mobilevideo.setAttribute("autoplay", "");
 </script>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<a class="logo" href="index.html">FAVEO</a>
-				</header>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">FAVEO</a>
+    </header>
 
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h1>FAVEO</h1>
-					<p>Online quiz application for visually impaired people<br />
-				</div>
-				<video playsinline autoplay loop  >
+    <!-- Banner -->
+    <section id="banner">
+        <div class="inner">
+            <h1>FAVEO</h1>
+            <p>Online quiz application for visually impaired people<br />
+        </div>
+        <video playsinline autoplay loop>
 				 <source src="https://media.giphy.com/media/3oFyD4yCrbo29sDhZe/giphy.mp4" type="video/mp4">
 				 </video>
-			</section>
+    </section>
 
-		<!-- Highlights -->
-			<section class="wrapper">
-				<div class="inner">
-					<header class="special">
-						<h2><b>Helping to Enhance Knowledge</b></h2>
-						<p>Our project is aimed towards visually impaired people. We are hoping to increase the quality of their educational life. They can solve quizzes and test their knowledge. They can upload their question, create their quiz and share it with other users. Since our application uses accessibility features, such as text to speech and voice control, users can use our application with minimum aid. Users don't have to type down their questions, they can upload their questions as text image, our application will convert it automatically.</p>
-					</header>
-					<div class="highlights">
-						<section>
-							<div class="content">
-								<header>
-									<a href="x" class="icon fa-files-o"><span class="label">Icon</span></a>
-									<h3>Specification Report</h3>
-								</header>
-							</div>
-						</section>
-						<!--
+    <!-- Highlights -->
+    <section class="wrapper">
+        <div class="inner">
+            <header class="special">
+                <h2><b>Helping to Enhance Knowledge</b></h2>
+                <p>Our project is aimed towards visually impaired people. We are hoping to increase the quality of their educational life. They can solve quizzes and test their knowledge. They can upload their question, create their quiz and share it with other users. Since our application uses accessibility features, such as text to speech and voice control, users can use our application with minimum aid. Users don't have to type down their questions, they can upload their questions as text image, our application will convert it automatically.</p>
+            </header>
+            <div class="highlights">
+                <section>
+
+                    <div class="content">
+                        
+                            <header>
+                                <a href="x" class="icon fa-files-o"><span class="label">Icon</span></a>
+                                <h3><a href="">Specification Report</a></h3>
+                            </header>
+                        
+                    </div>
+
+                </section>
+                <!--
 						<section>
 							<div class="content">
 								<header>
@@ -104,80 +146,91 @@ mobilevideo.setAttribute("autoplay", "");
 					</div>
 				</div>
 				-->
-			</section>
+    </section>
 
-		<!-- Testimonials -->
-			<section class="wrapper">
-				<div class="inner">
-					<header class="special">
-						<h2>Team Members</h2>
-					</header>
-					<div class="testimonials">
-						<section>
-							<div class="content">
-								<div class="author">
-									<div class="image">
-										<img src="images/image.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Enes Varol</strong> <span>enesvarol77@gmail.com</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<div class="author">
-									<div class="image">
-										<img src="images/image.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Enes Yıldırım</strong> <span>enes.yildirim@ug.bilkent.edu.tr</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<div class="author">
-									<div class="image">
-										<img src="images/image.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Engin Deniz Kopan</strong> <span>engin.kopan@ug.bilkent.edu.tr</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content"style="display:center">
-								<div class="author">
-									<div class="image">
-										<img src="images/image.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Zafer Çınar</strong> <span>zafer.cinar@ug.bilkent.edu.tr</span></p>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="content">
-						<section>
-						</section>
-						<section>
-						</section>
-					</div>
-					<div class="copyright">
-						&copy; 2019-FAVEO</a>.
-					</div>
-				</div>
-			</footer>
+    <div class="container">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+        <center>
+            <h2><b>Team Members</b></h2>
+        </center>
+
+
+        <div class="row" style="padding-left: 80px">
+
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/image.jpg" alt="Enes VAROL" style="width:100%">
+                    <b style="font-size: 20px">Enes VAROL</b>
+                    <p class="title"><b>21301826</b></p>
+                    <p><b>Bilkent University</b></p>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <p><button>Contact</button></p>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/cv.jpg" alt="Engin Deniz KOPAN" style="width:100%">
+                    <b style="font-size: 20px">Engin Deniz KOPAN</b>
+                    <p class="title"><b>21301826</b></p>
+                    <p><b>Bilkent University</b></p>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <p><button>Contact</button></p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/image.jpg" alt="Zafer ÇINAR" style="width:100%">
+                    <b style="font-size: 20px">Zafer ÇINAR</b>
+                    <p class="title"><b>21301826</b></p>
+                    <p><b>Bilkent University</b></p>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <p><button>Contact</button></p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/image.jpg" alt="Enes YILDIRIM" style="width:100%">
+                    <b style="font-size: 20px">Enes YILDIRIM</b>
+                    <p class="title"><b>21301826</b></p>
+                    <p><b>Bilkent University</b></p>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <p><button>Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                </section>
+                <section>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy; 2019-FAVEO</a>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
